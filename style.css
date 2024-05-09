@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(to left top, #092f79, #004c97, #006bb3, #008acc, #00a9e4, #00b3ed, #00bdf6, #00c7ff, #00bcff, #64aaff, #b18fff, #f364ff);
+}
+.main-hero{
+    width: 75%;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+    background-color: rgba(46, 19, 58, 1);
+    color: rgba(254, 252, 253, 1);
+    font-size: 7rem;
+    border-radius: 5rem;
+    box-shadow: 1px 1px 30px 2px rgb(0, 0, 0);
+
+}
+.btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+#start{
+    font-size: 3rem;
+    border-radius:2rem;
+    padding: 0rem 2rem;
+    text-transform: capitalize;
+    background-color: rgba(87, 66, 98, 1);
+    border: none;
+    color:white ;
+}
+#start:hover{
+    background-color:rgba(230, 124, 217, 1) ;
+    transition:0.4s;
+}
+
+#stop{
+    font-size: 3rem;
+    border-radius:2rem;
+    padding: 0rem 2rem;
+    text-transform: capitalize;
+    background-color: rgba(87, 66, 98, 1);
+    border: none;
+    color:white ;
+}
+#stop:hover{
+    background-color:rgba(230, 124, 217, 1) ;
+    transition:0.4s;
+    
+}
+#reset{
+    font-size: 3rem;
+    border-radius:2rem;
+    padding: 0rem 2rem;
+    text-transform: capitalize;
+    background-color: rgba(87, 66, 98, 1);
+    border: none;
+    color:white ;
+}
+#reset:hover{
+    background-color:rgba(230, 124, 217, 1) ;
+    transition:0.4s;
+}
